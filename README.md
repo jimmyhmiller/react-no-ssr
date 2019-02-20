@@ -8,7 +8,7 @@ This wrapper makes it simple to work with those components.
 ### Installation
 
 ```
-npm i --save react-no-ssr
+npm i --save @chuyik/react-no-ssr
 ```
 
 ### Usage
