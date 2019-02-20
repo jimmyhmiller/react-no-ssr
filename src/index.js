@@ -1,10 +1,10 @@
 import React from 'react'
 
-const DefaultOnSSR = () => <React.Fragment />
+const DefaultOnSSR = React.Fragment ? () => <React.Fragment /> : <span />
 
 class NoSSR extends React.Component {
-  constructor(...args) {
-    super(...args)
+  constructor(props) {
+    super(props)
     this.state = {
       canRender: false
     }
