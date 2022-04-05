@@ -17,7 +17,7 @@ Let's say `Comments` is our **client only** component. Now we need to render it 
 
 ```js
 import React from 'react';
-import NoSSR from 'react-no-ssr';
+import NoSSR from '@chuyik/react-no-ssr';
 import Comments from './comments.jsx';
 
 const MyPage = () => (
